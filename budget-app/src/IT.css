@@ -1,0 +1,42 @@
+#IT {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid grey;
+}
+
+#itbudget {
+    margin-left: 2.5em;
+}
+
+.itbtn {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    align-self: center;
+    border: none;
+}
+
+.itbtn:nth-of-type(1) {
+    background-color: rgb(6, 255, 6);
+}
+
+.itbtn:nth-of-type(1):hover {
+    cursor: pointer;
+}
+
+.itbtn:nth-of-type(2) {
+    background-color: red;
+}
+
+.itbtn:nth-of-type(2):hover {
+    cursor: pointer;
+}
+
+.itbtn:nth-of-type(3) {
+    background-color: black;
+}
+
+.itbtn:nth-of-type(3):hover {
+    cursor: pointer;
+}

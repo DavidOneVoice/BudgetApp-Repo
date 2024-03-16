@@ -1,0 +1,42 @@
+#HR {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid grey;
+}
+
+#hrbudget {
+    margin-left: -4em;
+}
+
+.hrbtn {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    align-self: center;
+    border: none;
+}
+
+.hrbtn:nth-of-type(1) {
+    background-color: rgb(6, 255, 6);
+}
+
+.hrbtn:nth-of-type(1):hover {
+    cursor: pointer;
+}
+
+.hrbtn:nth-of-type(2) {
+    background-color: red;
+}
+
+.hrbtn:nth-of-type(2):hover {
+    cursor: pointer;
+}
+
+.hrbtn:nth-of-type(3) {
+    background-color: black;
+}
+
+.hrbtn:nth-of-type(3):hover {
+    cursor: pointer;
+}

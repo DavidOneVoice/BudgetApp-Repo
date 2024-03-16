@@ -1,0 +1,47 @@
+#sales {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid grey;
+}
+
+#salesbudget {
+    margin-left: 1em;
+}
+
+.salesbtn {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    align-self: center;
+    border: none;
+}
+
+.salesbtn:nth-of-type(1) {
+    background-color: rgb(6, 255, 6);
+}
+
+.salesbtn:nth-of-type(1):hover {
+    cursor: pointer;
+}
+
+.salesbtn:nth-of-type(2) {
+    background-color: red;
+}
+
+.salesbtn:nth-of-type(2):hover {
+    cursor: pointer;
+}
+
+.salesbtn:nth-of-type(3) {
+    background-color: black;
+}
+
+.salesbtn:nth-of-type(3):hover {
+    cursor: pointer;
+}
+
+.fonticon {
+    color: white;
+    font-size: 2em;
+}

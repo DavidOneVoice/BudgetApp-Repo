@@ -1,0 +1,42 @@
+#finance {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid grey;
+}
+
+#salarybudget {
+    margin-left: 0.5em;
+}
+
+.financebtn {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    align-self: center;
+    border: none;
+}
+
+.financebtn:nth-of-type(1) {
+    background-color: rgb(6, 255, 6);
+}
+
+.financebtn:nth-of-type(1):hover {
+    cursor: pointer;
+}
+
+.financebtn:nth-of-type(2) {
+    background-color: red;
+}
+
+.financebtn:nth-of-type(2):hover {
+    cursor: pointer;
+}
+
+.financebtn:nth-of-type(3) {
+    background-color: black;
+}
+
+.financebtn:nth-of-type(3):hover {
+    cursor: pointer;
+}

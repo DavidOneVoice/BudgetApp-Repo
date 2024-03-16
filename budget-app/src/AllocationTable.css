@@ -1,0 +1,13 @@
+#allocationsection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#tablehead {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3em;
+    border-bottom: 1px solid grey;
+}

@@ -1,0 +1,53 @@
+#balance {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.balancediv {
+    display: flex;
+    width: 21%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 2em;
+}
+
+.balancediv span {
+    align-self: center;
+    margin-left: 0.5em;
+}
+
+#budgetamount {
+    border: none;
+    background-color: rgb(240, 255, 249);
+    margin-left: 0.5em;
+}
+
+#currency {
+    border: none;
+}
+
+.balancediv:nth-of-type(1) {
+    background-color: rgb(240, 255, 249);
+}
+
+.balancediv:nth-of-type(2) {
+    background-color: rgb(255, 193, 241);
+}
+
+.balancediv:nth-of-type(3) {
+    background-color: rgb(254, 255, 191);
+}
+
+.balancediv:nth-of-type(4) {
+    background-color: rgb(255, 240, 254);
+}
+
+.balancediv:nth-of-type(2) span,
+.balancediv:nth-of-type(3) span {
+    margin-right: 1em;
+}
+
+select {
+    background-color: rgb(255, 240, 254);
+}
